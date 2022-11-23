@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.sign-up{
+    display: flex;
+}
+
+.img{
+    width: 40%;
+    min-height: 100vh;
+    background: url(/imgs/img1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.form{
+    width: 60%;
+}
+
+.heading{
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246/var(--tw-bg-opacity));
+    padding: 150px 0 50px 50px;
+}
+
+.info{
+    padding: 20px 0 40px 50px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+}
+
+.info h2{
+    margin-bottom: 20px;
+}
+
+.everyinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 50px;
+}
+
+.second{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 50px;
+}
+
+.third{
+    display: flex;
+    gap: 50px;
+}
+
+.last{
+    padding: 30px 0 0 50px;
+}
+
+.last button{
+    padding: 10px 50px;
+    border-radius: 5px;   
+    background-color: #596D48;
+    color: white;
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+.last p{
+    font-size: 18px;
+}
+
+.last p a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #596D48;
+}
